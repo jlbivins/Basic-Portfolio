@@ -5,8 +5,9 @@
         padding: 0;
     }    
 
+    
     body{
-        background: rgb(227, 230, 231);
+        background: rgb(194, 194, 196);
         margin: 0;
     }
 
@@ -16,41 +17,42 @@
     }    
 
     #content{
-        border-style:none;/* 1px solid black; */
+        /* border: 1px solid black; */
         width: 960px;
         height: 400px;
         margin: 20px auto;
         clear: both;
         background: #ffffff;
+        border-bottom: rgb(194, 194, 196);
+
     }
     
     li{
         display: inline-block
     }
-    p{
-     color:gray
-    }
 
     .about_me1{
         float: left;
-        width:300px;
         color: white;
+        width:300px;
         background: #4aaaa5;
         height: 79px;
         margin:0;
+    
     }
     .about_me2{
-        /* float: left;
-        width:300px; */
+        float: left;
         color: #4aaaa5;
+        width:960px;
         background: white;
-        /* height: 79px;
-        margin:0; */
-
+        height: 79px;
+        margin:0;
+        
+    
     }
 
     header{
-        border-bottom: 1px solid ;
+        border-bottom: 1px solid rgb(194, 194, 196);
         overflow: auto;
         background: #ffffff;
     }
@@ -65,10 +67,6 @@
 
     footer{
         height: 50px;
-        background: #4f5c5b;
-        border-top: 10px solid #4aaaa5;
+        background: gray;
+        border-top: 5px solid #4aaaa5;
     }
-
-
-
-    
