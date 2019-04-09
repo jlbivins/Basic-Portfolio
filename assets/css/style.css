@@ -19,7 +19,7 @@
     #content{
         /* border: 1px solid black; */
         width: 960px;
-        height: 400px;
+        /* height: 400px; */
         margin: 20px auto;
         clear: both;
         background: #ffffff;
@@ -89,4 +89,11 @@
         font-size: 16px;
         margin: 4px 2px;
         cursor: pointer;
+      }
+      /* .big_text_box{
+        height: 100px;
+      } */
+      textarea{
+          height: 100px;
+          width: 940px;
       }
